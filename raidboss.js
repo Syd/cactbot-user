@@ -8,8 +8,9 @@ Options.SpokenAlertsEnabled = true;
 Options.SoundAlertsEnabled = true;
 
 Options.Triggers = [
+    //cutters cry reminders
     {
-        ZoneRegex: /^Cutter's Cry$/, //this won't trigger in hardmodes, but I don't have them atm
+        ZoneRegex: /^Cutter's Cry.*$/, 
         // I tend to forget what the chimera mechanic is here because I don't go often
         // tl;dr run away when he casts ram's voice, run close to him when he cast's dragon's voice.
         triggers: [
