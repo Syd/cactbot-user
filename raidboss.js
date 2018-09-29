@@ -1,4 +1,11 @@
+
+console.log('my raidboss settings loaded');
+Options.Debug = true;
+
+Options.AlertsEnabled = true;
+Options.TimelineEnabled = true;
 Options.SpokenAlertsEnabled = true;
+Options.SoundAlertsEnabled = true;
 
 Options.Triggers = [
     {
@@ -6,7 +13,7 @@ Options.Triggers = [
         triggers: [
             {
                 id: 'Ram Voice',
-                regex: /:The chimera begins casting the Ram's voice/,
+                regex: /The chimera begins casting The Ram's Voice/,
 
                 alertText: function(data) {
                     return {
