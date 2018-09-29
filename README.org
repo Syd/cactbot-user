@@ -1,0 +1,4 @@
+#+TITLE: custom config for cactbot
+
+* What's this?
+my custom overrides for cactbot, with some timers for normal dungeons and my settings.
