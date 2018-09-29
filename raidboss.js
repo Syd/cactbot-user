@@ -1,3 +1,5 @@
+Options.SpokenAlertsEnabled = true;
+
 Options.Triggers = [
     {
         ZoneRegex: /^Cutter's Cry$/, //this won't trigger in hardmodes, but I don't have them atm
