@@ -1,4 +1,7 @@
 #+TITLE: custom config for cactbot
 
 * What's this?
-my custom overrides for cactbot, with some timers for normal dungeons and my settings.
+my custom overrides for [[https://github.com/quisquous/cactbot][cactbot]], with some timers for daily dungeons and my settings.
+
+* how do I use it?
+clone into your cactbot/user folder
